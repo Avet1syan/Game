@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 4138371296524305599}
   m_Layer: 0
   m_Name: Body_Mesh_10
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 9082032459750945175}
   m_Layer: 0
   m_Name: Mittsubisi_Lancer_GSR
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

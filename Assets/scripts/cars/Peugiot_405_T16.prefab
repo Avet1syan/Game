@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 7457555124640583686}
   m_Layer: 0
   m_Name: Peugiot_405_T16
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 994572737535607734}
   m_Layer: 0
   m_Name: Body_Mesh_14
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

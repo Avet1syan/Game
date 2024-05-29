@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 7521694832013561144}
   m_Layer: 0
   m_Name: Toyotta_Celicca_GT
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 965563600788585843}
   m_Layer: 0
   m_Name: Body_Mesh_19
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 1924392163530445891}
   m_Layer: 0
   m_Name: Lanncia_Stratoss_Group_4
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 3697793407061880705}
   m_Layer: 0
   m_Name: Body_Mesh_8
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -8,9 +8,11 @@ public class CarCamera : MonoBehaviour
 
     private Vector3 _offset = new Vector3(0f, 2f, -4f);
     private float _speed = 10f;
+   
 
     private void FixedUpdate()
     {
+        
         var targetPosition = _car.TransformPoint(_offset);
         transform.position = Vector3.Lerp(transform.position, targetPosition, _speed * Time.deltaTime);
 
