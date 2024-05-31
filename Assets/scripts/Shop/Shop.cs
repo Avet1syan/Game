@@ -8,7 +8,7 @@ public class Shop : MonoBehaviour
 {
 
 
-    public int money = 500;
+    public int money = 1500;
     public Text inventory;
     public TMP_Text moneyText;
 

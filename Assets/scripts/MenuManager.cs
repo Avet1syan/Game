@@ -6,26 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public GameObject settingsPanel;
+    
 
-    public void PlayGame()
-    {
-        
-    }
 
     public void ExitGame()
     {
         Application.Quit();
-    }
-
-    public void SettingsPanel()
-    {
-        settingsPanel.SetActive(true);
-    }
-
-    public void Exit()
-    {
-        settingsPanel.SetActive(false);
     }
 
 }

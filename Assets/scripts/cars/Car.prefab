@@ -652,7 +652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43083811841085572}
   - component: {fileID: 3030590038106029656}
-  - component: {fileID: 8212115920526523105}
+  - component: {fileID: 5648374133798793774}
   m_Layer: 0
   m_Name: Car
   m_TagString: Player
@@ -704,7 +704,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8212115920526523105
+--- !u!114 &5648374133798793774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -713,19 +713,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 6317193567465808606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 571c2d67e8427e444a7bb9bda3920fbd, type: 3}
+  m_Script: {fileID: 11500000, guid: c0fefceefe666bb4682b272ec8c5bdd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transformFL: {fileID: 2365834540123787240}
-  _transformFR: {fileID: 2909489535419234278}
-  _transformBL: {fileID: 8671558943287215174}
-  _transformBR: {fileID: 7983516927923050415}
-  _colliderFL: {fileID: 5339872194134067235}
-  _colliderFR: {fileID: 4452582542531160023}
-  _colliderBL: {fileID: 552609100621045901}
-  _colliderBR: {fileID: 8188812031338490546}
-  _force: 2000
-  _maxAngle: 30
+  maxSpeed: 140
+  maxReverseSpeed: 45
+  accelerationMultiplier: 2
+  maxSteeringAngle: 38
+  steeringSpeed: 0.5
+  brakeForce: 470
+  decelerationMultiplier: 2
+  handbrakeDriftMultiplier: 5
+  bodyMassCenter: {x: 0, y: 0, z: 0}
+  frontLeftMesh: {fileID: 4554826197503675732}
+  frontLeftCollider: {fileID: 5339872194134067235}
+  frontRightMesh: {fileID: 6091412304502125613}
+  frontRightCollider: {fileID: 4452582542531160023}
+  rearLeftMesh: {fileID: 4213720699600625363}
+  rearLeftCollider: {fileID: 552609100621045901}
+  rearRightMesh: {fileID: 9110400423840830552}
+  rearRightCollider: {fileID: 8188812031338490546}
+  useEffects: 0
+  RLWParticleSystem: {fileID: 0}
+  RRWParticleSystem: {fileID: 0}
+  RLWTireSkid: {fileID: 0}
+  RRWTireSkid: {fileID: 0}
+  useUI: 0
+  carSpeedText: {fileID: 0}
+  useSounds: 0
+  carEngineSound: {fileID: 0}
+  tireScreechSound: {fileID: 0}
+  useTouchControls: 0
+  throttleButton: {fileID: 0}
+  reverseButton: {fileID: 0}
+  turnRightButton: {fileID: 0}
+  turnLeftButton: {fileID: 0}
+  handbrakeButton: {fileID: 0}
+  carSpeed: 0
+  isDrifting: 0
+  isTractionLocked: 0
 --- !u!1 &7682603000104277034
 GameObject:
   m_ObjectHideFlags: 0

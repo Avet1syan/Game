@@ -306,7 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367366687789574044}
   - component: {fileID: 1586818842481529880}
-  - component: {fileID: 3008907812226924949}
+  - component: {fileID: 5289130743928622898}
   m_Layer: 0
   m_Name: Audii_Sport_Quattroo_S1
   m_TagString: Player
@@ -359,7 +359,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3008907812226924949
+--- !u!114 &5289130743928622898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -368,19 +368,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 991783895406676461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 571c2d67e8427e444a7bb9bda3920fbd, type: 3}
+  m_Script: {fileID: 11500000, guid: c0fefceefe666bb4682b272ec8c5bdd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transformFL: {fileID: 1298945333469461428}
-  _transformFR: {fileID: 4789689091020486030}
-  _transformBL: {fileID: 8022863642358363330}
-  _transformBR: {fileID: 682865609243754075}
-  _colliderFL: {fileID: 8768464797610755729}
-  _colliderFR: {fileID: 5977736069182359720}
-  _colliderBL: {fileID: 2687156059914374842}
-  _colliderBR: {fileID: 6722162309690520166}
-  _force: 1500
-  _maxAngle: 30
+  maxSpeed: 90
+  maxReverseSpeed: 45
+  accelerationMultiplier: 2
+  maxSteeringAngle: 27
+  steeringSpeed: 0.5
+  brakeForce: 350
+  decelerationMultiplier: 2
+  handbrakeDriftMultiplier: 5
+  bodyMassCenter: {x: 0, y: 0, z: 0}
+  frontLeftMesh: {fileID: 1576278726898497148}
+  frontLeftCollider: {fileID: 8768464797610755729}
+  frontRightMesh: {fileID: 577681840597241418}
+  frontRightCollider: {fileID: 5977736069182359720}
+  rearLeftMesh: {fileID: 1264796156989250167}
+  rearLeftCollider: {fileID: 2687156059914374842}
+  rearRightMesh: {fileID: 6464182505244923251}
+  rearRightCollider: {fileID: 6722162309690520166}
+  useEffects: 0
+  RLWParticleSystem: {fileID: 0}
+  RRWParticleSystem: {fileID: 0}
+  RLWTireSkid: {fileID: 0}
+  RRWTireSkid: {fileID: 0}
+  useUI: 0
+  carSpeedText: {fileID: 0}
+  useSounds: 0
+  carEngineSound: {fileID: 0}
+  tireScreechSound: {fileID: 0}
+  useTouchControls: 0
+  throttleButton: {fileID: 0}
+  reverseButton: {fileID: 0}
+  turnRightButton: {fileID: 0}
+  turnLeftButton: {fileID: 0}
+  handbrakeButton: {fileID: 0}
+  carSpeed: 0
+  isDrifting: 0
+  isTractionLocked: 0
 --- !u!1 &1264796156989250167
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +843,7 @@ GameObject:
   - component: {fileID: 3283518288601816710}
   m_Layer: 0
   m_Name: Body_Mesh
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -82,7 +82,6 @@
     <Compile Include="Assets\scripts\MenuManager.cs" />
     <Compile Include="Assets\scripts\Shop\CarController.cs" />
     <Compile Include="Assets\Dynamic Floating Text\Scripts\AlternationMode.cs" />
-    <Compile Include="Assets\scripts\CarCamera.cs" />
     <Compile Include="Assets\scripts\Shop\Shop.cs" />
     <Compile Include="Assets\PROMETEO - Car Controller\Scripts\PrometeoCarController.cs" />
     <Compile Include="Assets\Dynamic Floating Text\Scripts\DynamicText.cs" />

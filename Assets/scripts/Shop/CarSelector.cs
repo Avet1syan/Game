@@ -6,8 +6,7 @@ using System.Collections.Generic;
 
 public class CarSelector : MonoBehaviour
 {
-    //public GameObject panelCard;
-    //public GameObject panelPlay;
+    
 
     [SerializeField] private Button prevButton;
     [SerializeField] private Button nextButton;
@@ -39,25 +38,6 @@ public class CarSelector : MonoBehaviour
         SelectCar(currentCar);
     }
 
-    /*public void PanelCard()
-    {
-        if (statusText.text == "купить")
-        {
-            panelCard.SetActive(true);
-        }
-        else
-        {
-
-        }
-    }*/
-
-    /*public void PanelPlay()
-    {
-        panelPlay.SetActive(true);
-    }*/
-    /*public void Exit()
-    {
-        panelCard.SetActive(false);
-    }*/
+    
 }
 
